@@ -1,0 +1,588 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  line-height: 1.6em;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Essentials */
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 978px;
+  margin: 0 auto;
+}
+
+
+
+
+.header {
+  min-height: 600px;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,0,30,0.7),rgba(4,0,30,0.7)),url(images/hack-capital.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.header-section {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+}
+
+.header-section .logo h1{
+  font-size: 26px;
+  font-weight: 300;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 10px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.nav-links li a #mainav li a{
+  color:inherit;
+}
+
+.nav-links .active a {
+  color:#57ADC4; background-color:inherit;
+}
+
+.hero-text{
+  padding: 250px 0 100px;
+}
+
+.hero-text h1{
+  text-align: left;
+  color: white;
+  font-family: 20px;
+  font-weight: 300;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero-text p{
+  text-align: left;
+  color: white;
+  margin: 16px 0 20px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 8px 18px 10px;
+  text-transform: uppercase;
+  border: 1px solid skyblue;
+  background: skyblue;
+}
+
+.hero-btn:hover {
+  border: 1px solid white;
+  background: transparent;
+  transition: 0.5s;
+}
+
+
+
+
+.course{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.course h1{
+  font-size: 22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  color: black;
+}
+
+.course p{
+  color: black;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 22px; 
+}
+
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-col{
+  flex-basis: 50%;
+  background: white;
+  text-align: left;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+
+.course-col .main-para{
+  font-size: 11px;
+}
+
+.course-col h3{
+  text-align: left;
+  font-size: 22px;
+  font-weight: 300;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.cors-para{
+  text-align: left;
+  margin: 0 0 20px 0;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  background-color: skyblue;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border: 1px solid black;
+  background: transparent;
+  transition: 0.5s;
+  color: black;
+}
+
+.course-col1 {
+  flex-basis: 50%;
+  background: white;
+  text-align: left;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  box-sizing: border-box;
+}
+
+.sub-rows{
+  display: flex;
+  justify-content: space-between;  
+}
+
+.sub-col{
+  border-radius: 10px;
+  padding: 10px 12px;
+  box-sizing: border-box;
+
+}
+
+.sub-col h3{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 10px;
+  color: skyblue;
+
+}
+
+.mini-contact{
+  width: 100%;
+  margin: auto;
+  background-image: linear-gradient(rgba(4,0,30,0.7),rgba(4,0,30,0.7)),url(images/hack-capital.jpg);
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+}
+
+.mini-contact h1{
+  font-size: 22px;
+  font-weight: 300;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mini-contact p{
+  font-size: 14px;
+  font-weight: 300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 22px; 
+}
+
+.min-btn{
+  padding: 20px;
+}
+
+.medium-btn {
+  border: none;
+  color: white;
+  padding: 8px 18px 10px;
+  text-align: center;
+  text-decoration: none;
+  background-color: skyblue;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.medium-btn:hover {
+  border: 1px solid white;
+  background: transparent;
+  transition: 0.5s;
+}
+
+
+
+
+.blog{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.blog .container {
+  padding: 80px 0;
+}
+
+.sectiontitle{
+  display: block;
+  margin: 0 auto 80px;
+  text-align: center;
+}
+
+.blog h1{
+  font-size: 22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  color: black;
+}
+
+.blog p{
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+.grid{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.first-row{
+  display: inline-block;
+  
+  width: 31.28834355828221%;
+  margin-left: 0;
+  margin: 0 0 0 3.06748466257669%;
+  list-style: none;
+  clear: left;
+  margin-bottom: 30px;
+}
+
+.bg-img{
+  display: block;
+  padding-top: 150px;
+  background-image: url(images/320x240.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay{
+  position: relative;
+  z-index: 1;
+  padding: 15px;
+}
+
+.overlay::after{
+  color: inherit;
+  background-color: rgba(0,0,0,.55);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  content: '';
+  z-index: -1;
+}
+
+.over-heading{
+  font-size: 1.2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+
+.overlay p{
+  color: white;
+  font-size: 14px;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.story{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.story .container {
+  padding: 80px 0;
+}
+
+.story h1{
+  font-size: 22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  color: black;
+}
+
+.story p{
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+.stry-card{
+  display: inline-block;
+  margin: 0 0 0 1.5%;
+  list-style: none;
+  clear: left;
+  width: 31.28834355828221%;
+}
+
+.stry-card img{
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  border: none;
+  line-height: normal;
+  vertical-align: middle;
+  margin-bottom: 30px;
+}
+
+.str-heading{
+  font-size: 22px;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 300;
+  color: black;
+  padding-bottom: 10px;
+}
+
+.str-grp{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  color: black;
+  word-wrap: break-word;
+}
+
+.str-grp a{
+  color: #57ADC4;
+  outline: none;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.str-grp li::after{
+  margin-left: 5px;
+  margin-right: 5px;
+  content: "|";
+}
+
+.str-grp li:last-child::after{
+  margin-left: 0;
+  content: "";
+}
+
+.str-para{
+  color: black;
+  text-align: left;
+  margin: 14px 0;
+}
+
+.stry-card .stry-btn{
+  text-align: left;
+}
+
+
+.footer{
+  display: block;
+  width: 100%;
+  color: #7f7f7f;
+  background-color: black;
+  text-align: left;
+}
+
+.footer .container{
+  padding: 80px 0;
+}
+
+.address-row1{
+  display: inline-block;
+  width: 48%;
+  margin: 0 0 0 3%;
+  list-style: none;
+  margin-left: 0;
+  clear: left;
+
+}
+
+.container .ftr-heading{
+  color: white;
+  margin-bottom: 50px;
+}
+
+.ftr-heading{
+  margin: 0 0 20px 0 ;
+  font-size: 17px;
+  font-weight: 300;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+
+.ftr-para{
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 14px 0 30px;
+}
+
+.ftr-grp{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container .ftr-grp li ion-icon {
+  top: 0;
+  left: 0;
+  width: 30px;
+  font-size: 16px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.container .ftr-grp li{
+  margin-bottom: 15px;
+  padding: 0 0 15px 0;
+  border-bottom: 1px solid;
+  border-color: rgba(255,255,255,.2);
+}
+
+.container .ftr-grp li *{
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.links-row2{
+  width: 22%;
+  display: inline-block;
+  margin: 0 0 0 3.06748466257669%;
+  list-style: none;
+}
+
+.linklist{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link-para{
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 14px 0 20px;
+}
+
+.container .linklist li{
+  display: block;
+  margin-bottom: 15px;
+  padding: 0 0 15px 0;
+  border-bottom: 1px solid;
+  border-color: rgba(255,255,255,.2);
+  clear: both;
+}
+
+.linklist li a {
+  color: #57ADC4;
+  outline: none;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+form fieldset{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.container input{
+  display: block;
+  width: 100%;
+  padding: 8px;
+  color: #FFFFFF;
+  background-color: #292929;
+  border-color: transparent;
+  margin-bottom: 25px;
+}
+
+.container button{
+  color: #FFFFFF;
+  background-color: #57ADC4;
+  border-color: transparent;
+  padding: 8px 18px 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
